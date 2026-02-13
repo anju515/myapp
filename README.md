@@ -1,71 +1,153 @@
-# Getting Started with Create React App
-<img width="1907" height="965" alt="image" src="https://github.com/user-attachments/assets/7e87fe91-498f-4c33-9cc4-e92c8629d86f" />
+# TechWorld - Text Utility App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TechWorld is a simple and powerful React-based text utility application.  
+It allows users to analyze and manipulate text easily.
 
-## Available Scripts
+This project is built using React and Bootstrap.
 
-In the project directory, you can run:
 
-### `npm start`
+<img width="1910" height="850" alt="image" src="https://github.com/user-attachments/assets/36368083-45ed-4b7c-ab11-e79097694198" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+--------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<img width="1611" height="826" alt="image" src="https://github.com/user-attachments/assets/bc420edb-8a8f-4e9d-bb57-e5e10b08724d" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-----------
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1895" height="817" alt="image" src="https://github.com/user-attachments/assets/bb2f4e1f-03b8-454f-bb26-0e9a5ac513fc" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Features
 
-### `npm run eject`
+- Convert text to Uppercase
+- Convert text to Lowercase
+- Clear Text
+- Copy Text to Clipboard
+- Word and Character Counter
+- Reading Time Calculation
+- Live Text Preview
+- Dark Mode / Light Mode Toggle
+- Alert Messages for User Actions
+- About Us Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🖥️ Project Preview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Home Page:
+- Large text input area
+- Action buttons
+- Text summary section
+- Live preview
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Dark Mode:
+- Toggle switch to enable dark theme
+- Fully responsive UI
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 About Us Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The About Us page provides information about the application.
+enable to dark mode in about Us 
 
-### Code Splitting
+It explains:
+- Purpose of the project
+- Features offered
+- User-friendly interface
+- Text analysis capabilities
+- React-based implementation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This page is built using a separate React component and routing system.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔔 Alert Message System
 
-### Making a Progressive Web App
+The application includes a dynamic alert system.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Alerts appear when:
+- Text is converted to uppercase
+- Text is converted to lowercase
+- Text is cleared
+- Text is copied
 
-### Advanced Configuration
+The alert component:
+- Displays success messages
+- Automatically disappears after a few seconds
+- Improves user interaction
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🛠️ Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- React JS
+- JavaScript (ES6)
+- Bootstrap
+- HTML5
+- CSS3
+- Router
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📦 Installation & Setup
+1. Clone the repository:
+
+git clone https://github.com/anju515/React-app.git
+
+
+2. Navigate to project folder:
+
+cd your-project-name
+
+
+3. Install dependencies:
+
+npm install
+
+
+4. Start development server:
+
+npm start
+
+
+The app will run at:
+http://localhost:3000
+
+---
+
+## 📊 Text Summary Features
+
+- Counts total words
+- Counts total characters
+- Calculates approximate reading time
+- Shows preview in real time
+
+---
+
+## 🌙 Dark Mode Feature
+
+Users can switch between:
+- Light Mode
+- Dark Mode
+
+The entire UI theme changes dynamically.
+
+---
+
+## 📌 Future Improvements
+
+- Remove extra spaces feature
+- Capitalize first letter feature
+- Download text as file
+- Deploy to production
+
+
+## 📄 License
+
+This project is open-source and free to use.
+1. Clone the repository:
+
